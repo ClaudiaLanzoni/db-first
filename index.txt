@@ -1,0 +1,22 @@
+TABELLA DATABASE CONCESSIONARIO :
+
+id                      |     
+marca                   |   
+modello                 |
+anno_immatricolazione   |
+provincia_appartenenza  |
+km_percorsi             |
+prezzo_listino          |
+cambio                  |
+colore                  |
+potenza_motore          |
+cilindrata              |
+peso                    |
+lunghezza               |
+altezza                 |
+larghezza               |
+bagagliaio              |
+capacita_bagagliaio     |
+numero_porte            |
+alimentazione           |
+capacita_serbatoio      |
