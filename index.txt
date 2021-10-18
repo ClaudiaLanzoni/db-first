@@ -2,23 +2,28 @@ TABELLA DATABASE CONCESSIONARIO :
 
 CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
 -----------------------------------------------------------------------------------------
-id                      |   intero              |
-marca                   |   stringa             |
-modello                 |   stringa             |
-anno_immatricolazione   |   data                |
-provincia_appartenenza  |   intero              |
-km_percorsi             |   intero              |
-prezzo_listino          |   intero              |
-cambio                  |   stringa             |
-colore                  |   stringa             |
-potenza_motore          |   intero              |
-cilindrata              |   intero              |
-peso                    |   intero              |
-lunghezza               |   intero              |
-altezza                 |   intero              |
-larghezza               |   intero              |
-bagagliaio              |   booleano            |
-capacita_bagagliaio     |   intero              |
-numero_porte            |   intero              |
-alimentazione           |   stringa             |
-capacita_serbatoio      |   intero              |
+id                      |   intero              |   MEDIUMINT               |   AUTOINCREMENT - NOTNULL
+disponibile             |   booleano            |   TINYINT                 |   NOTNULL
+marca                   |   stringa             |   VARCHAR(30)             |   NOTNULL
+modello                 |   stringa             |   VARCHAR(30)             |   NOTNULL
+anno_immatricolazione   |   data                |   DATE                    |   NOTNULL
+paese_provenienza       |   stringa             |   VARCHAR(15)             |   NOTNULL
+provincia_appartenenza  |   stringa             |   VARCHAR(2)              |   NOTNULL
+km_percorsi             |   intero              |   MEDIUMINT               |   NOTNULL
+prezzo_listino          |   intero              |   MEDIUMINT               |   NOTNULL
+cambio                  |   stringa             |   VARCHAR(15)             |   NOTNULL
+trazione                |   stringa             |   VARCHAR(15)             |   NOTNULL
+colore                  |   stringa             |   VARCHAR(15)             |   NOTNULL
+potenza_motore          |   stringa             |   VARCHAR(10)             |   NOTNULL
+cilindrata              |   stringa             |   VARCHAR(10)             |   NOTNULL
+emissioni_CO2           |   stringa             |   VARCHAR (10)            |   NOTNULL
+peso                    |   intero              |   SMALLINT                |   NOTNULL
+lunghezza               |   intero              |   SMALLINT                |   NULL
+altezza                 |   intero              |   SMALLINT                |   NULL
+larghezza               |   intero              |   SMALLINT                |   NULL
+bagagliaio              |   booleano            |   TINYINT                 |   NOTNULL
+capacita_bagagliaio     |   stringa             |   VARCHAR(10)             |   NOTNULL
+numero_porte            |   intero              |   TINYINT                 |   NOTNULL
+alimentazione           |   stringa             |   VARCHAR(15)             |   NOTNULL
+capacita_serbatoio      |   stringa             |   VARCHAR(15)             |   NOTNULL
+autonomia_riserva       |   intero              |   SMALLINT                |   NULL
