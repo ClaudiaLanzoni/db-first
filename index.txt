@@ -1,22 +1,24 @@
 TABELLA DATABASE CONCESSIONARIO :
 
-id                      |     
-marca                   |   
-modello                 |
-anno_immatricolazione   |
-provincia_appartenenza  |
-km_percorsi             |
-prezzo_listino          |
-cambio                  |
-colore                  |
-potenza_motore          |
-cilindrata              |
-peso                    |
-lunghezza               |
-altezza                 |
-larghezza               |
-bagagliaio              |
-capacita_bagagliaio     |
-numero_porte            |
-alimentazione           |
-capacita_serbatoio      |
+CARATTERISTICA          |   TIPO DI DATO        |   SPECIFICHE TIPO DATO    |   ATTRIBUTI    
+-----------------------------------------------------------------------------------------
+id                      |   intero              |
+marca                   |   stringa             |
+modello                 |   stringa             |
+anno_immatricolazione   |   data                |
+provincia_appartenenza  |   intero              |
+km_percorsi             |   intero              |
+prezzo_listino          |   intero              |
+cambio                  |   stringa             |
+colore                  |   stringa             |
+potenza_motore          |   intero              |
+cilindrata              |   intero              |
+peso                    |   intero              |
+lunghezza               |   intero              |
+altezza                 |   intero              |
+larghezza               |   intero              |
+bagagliaio              |   booleano            |
+capacita_bagagliaio     |   intero              |
+numero_porte            |   intero              |
+alimentazione           |   stringa             |
+capacita_serbatoio      |   intero              |
